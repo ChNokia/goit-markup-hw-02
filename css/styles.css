@@ -1,7 +1,7 @@
 body{
     font-family: "Roboto", sans-serif;
     background-color: #fff;
-    color: #2e2f42;
+    color: #434455;
 }
 ul, ol {
     list-style-type: none;
@@ -48,7 +48,9 @@ button{
 .menu-link:hover, .menu-link:focus {
     color: #404bbf;
 }
-.address {}
+.address {
+    font-style: normal;
+}
 
 .address-menu {}
 
@@ -87,7 +89,6 @@ button{
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #4d5ae5;
 }
 
@@ -108,13 +109,13 @@ button{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .features-menu-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 .our-team {
     background-color: #f4f4fd;
@@ -123,14 +124,18 @@ button{
 .our-team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
 .our-team-menu {}
 
-.our-team-item {}
+.our-team-item {
+    background-color: #fff;
+}
 
 .our-team-icon {}
 
@@ -140,6 +145,7 @@ button{
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #2e2f42;
 }
 
 .our-team-item-text {
@@ -147,7 +153,6 @@ button{
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #434455;
 }
 .portfolio {}
 
@@ -157,6 +162,8 @@ button{
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
 .portfolio-menu {}
@@ -170,13 +177,13 @@ button{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .portfolio-item-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 .footer {
     background-color: #2e2f42;
